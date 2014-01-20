@@ -2,7 +2,7 @@
 
 https://rocky-temple-4523.herokuapp.com/
 
-I upgraded to Rails 4 (Ruby, Git, and Heroku were already set up), started a new project, configured to use pg in production and sqlite in development, and added a home page that simply says 'William Merlin's Home Page'. I did not encounter any additional installation or configuration issues.
+I upgraded to Rails 4 (Ruby, Git, Heroku, and Rails 3.2 were already set up), started a new project, configured to use pg in production and sqlite in development by using groupings inside the gemfile, and added a home page called 'home' under 'PagesController' as the root path in routes that simply says 'William Merlin's Home Page'. I did not encounter any additional installation or configuration issues, as all components other than Rails 4 had already been installed prior to the course.
 
 
 
