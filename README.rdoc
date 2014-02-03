@@ -2,7 +2,12 @@
 
 https://rocky-temple-4523.herokuapp.com/
 
-I upgraded to Rails 4 (Ruby, Git, Heroku, and Rails 3.2 were already set up), started a new project, configured to use pg in production and sqlite in development by using groupings inside the gemfile, and added a home page called 'home' under 'PagesController' as the root path in routes that simply says 'William Merlin's Home Page'. I did not encounter any additional installation or configuration issues, as all components other than Rails 4 had already been installed prior to the course.
+I changed the root path homepage to exactly resemble the Google homepage using html and css. I began by first defining all the html elements seen on the Google homepage and then styled the elements, beginning with the top navigation items and moving down the page until ending with the footer. I chose to use scss so that I could nest the css elements to better keep track of the hierarchy and cascading features. I ran into several problems achieving exact proper positioning of the html elements, such as centering the search bar and logo and vertically centering the items in the footer. I learned to horizontaly center by defining a width and using margin: 0 auto, and I learned to move the items vertically using the line height property. I also had difficulty centering the microphone icon inside the input element, which I eventually solved by using position absolute on the microphone and giving a right and top pixel value to have it appear inside the search bar. 
+
+Project Ideas
+1. Implement a metrics dashboard which would pull and save data from the Adwords and Google analytics APIs and display a high level overview of current activity for a site in an easily understandable format for non-technical/non-marketing folks. Additional features might include recommendations for improved actions or integration with more APIs for SEO or Social metrics.
+2. Implement a local campus buy/sell listing board, which would allow students to post items they would like to sell to other students (furniture, textbooks, etc.) and allow students looking for used items to search for items being sold. This would be extremely similar to something like Ebay but with a focus on college student to college student transactions.
+3. Implement a listing board where students can post ideas for products or business models and get feedback from and get connected with other students who are interested in the project. Students can search for product ideas by highest rated or by category and can engage in discussion or be connected with other students with similar ideas. 
 
 
 
